@@ -91,17 +91,7 @@ nav ul li a:hover{
 }
 .hero{
 
-/* display: flex; */
-
-/* align-items: center; */
-
-/* overflow: hidden; */
-
-/* justify-content: center; */
-
-/* flex-wrap: wrap; */
-
-padding: 20px 0px;
+padding: 100px 0px;
 }
 .brief{/* text-align: center; */width: 50%;flex: 0 0 auto;}
 .brief h1{
@@ -188,6 +178,7 @@ flex-wrap: wrap;
 }
 .assignment{
 	padding:50px 0;
+	background: #73737317;
 }
 .assignment .flex{
 	justify-content: center;
@@ -235,4 +226,8 @@ background: #1bc2b4;
 	height: 35px;
 	margin-top: -6px;
 	width: 75px;
+}
+
+.assignment h2 {
+    margin-bottom: 30px;
 }
