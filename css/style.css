@@ -1,0 +1,216 @@
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	font-family: 'Source Sans Pro', sans-serif;
+    color: #434346eb;
+
+}
+header{
+
+}
+.flex{
+	
+display: flex;
+	
+justify-content: flex-end;
+	
+align-items: center;
+	
+flex-wrap: wrap;
+}
+.container{
+
+max-width: 1200px;
+
+margin: auto;
+
+padding: 0 20px;
+
+overflow: hidden;
+}
+.nav-area{padding: 2px 0;box-shadow: 0px 5px 8px -9px;overflow: hidden;}
+.logo-area{
+
+width: 25%;
+}
+.logo-text{
+
+display: inline-block;
+
+font-family: 'Bebas Neue', cursive;
+
+font-size: 25px;
+
+padding: 0 5px;
+
+color: #23b9b4c7;
+}
+.logo-area img{
+
+width: 60px;
+
+display: inline-block;
+
+padding: 3px;
+
+background: white;
+
+opacity: 0.95;
+
+border-radius: 50%;
+
+border: 1px solid #ddd;
+}
+nav{
+
+width: 75%;
+}
+nav ul{
+
+list-style: none;
+}
+nav ul li a{
+
+display: inline-block;
+
+padding: 10px 15px;
+
+text-decoration: none;
+
+font-size: 15px;
+
+text-transform: uppercase;
+
+color: #14afa9;
+}
+nav ul li a:hover{
+
+}
+.hero{
+
+/* display: flex; */
+
+/* align-items: center; */
+
+/* overflow: hidden; */
+
+/* justify-content: center; */
+
+/* flex-wrap: wrap; */
+
+padding: 20px 0px;
+}
+.brief{/* text-align: center; */width: 50%;flex: 0 0 auto;}
+.brief h1{
+
+font-size: 50px;
+
+font-weight: 300;
+}
+.brief p{
+
+font-size: 20px;
+
+line-height: 1.6;
+
+margin: 30px 0;
+
+font-weight: 300;
+
+color: black;
+}
+.banner{
+
+width: 50%;
+
+flex: 0 0 auto;
+}
+.banner img{
+
+max-width: 100%;
+
+display: block;
+
+margin: auto;
+
+overflow: hidden;
+
+height: auto;
+
+width: auto;
+
+object-fit: cover;
+}
+
+.inner {
+    max-width: 500px;
+    text-align: center;
+    /* margin: auto; */
+}
+.inner a{
+	display: inline-block;
+	text-decoration: none;
+	font-weight: 700;
+	padding: 20px 25px;
+	border-radius: 50px;
+	background: #ffffff;
+	box-shadow:  10px 10px 20px #d9d9d9, 
+             -10px -10px 20px #ffffff;
+	border: 1px solid #30bdb9;
+	color: #1da5a0;
+	transition-duration: .3s;
+}
+.inner a:hover{
+	background: #30bdb9;
+	color: white;
+}
+
+.inner span {
+    display: inline;
+    font-weight: 300;
+    font-size: 90px;
+    color: #23b9b4;
+    line-height: 0.9;
+}
+.logo-area a{
+	
+display: inline-flex;
+	
+text-decoration: none;
+	
+align-items: center;
+	
+flex-wrap: wrap;
+}
+.assignment{
+	padding:50px 0;
+}
+.assignment .flex{
+	justify-content: center;
+	overflow: hidden;
+}
+.col{
+	
+width: 25%;
+	
+flex: 0 0 auto;
+	
+padding: 10px;
+}
+
+.item {
+    padding: 10px;
+    border: 1px solid #eee;
+    box-shadow: 0px 0px 15px #bfbdbd;
+}
+
+.col img {
+    max-width: 100%;
+}
+.item-inner{
+	
+padding: 10px;
+}
