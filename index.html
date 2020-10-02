@@ -258,7 +258,12 @@
 		  document.getElementById(pageName).style.display = "block";
 		  elmnt.style.backgroundColor = color;
 		}
-
+		
+		function init(){
+			document.getElementById('all').style("display", "block");
+			document.querySelectorAll('tabcontents').style("display", "none");
+		}
+		init();
 		// Get the element with id="defaultOpen" and click on it
 	</script>
 </body>
