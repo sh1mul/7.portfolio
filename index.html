@@ -261,7 +261,10 @@
 		
 		function init(){
 			document.getElementById('all').style("display", "block");
-			document.querySelectorAll('tabcontents').style("display", "none");
+			var tabs = document.getElementsByClassName('tabcontents');
+			for(i=0; i<tabs.length; i++){
+		          tabs[i].style.display = "none";	
+			}
 		}
 		init();
 		// Get the element with id="defaultOpen" and click on it
