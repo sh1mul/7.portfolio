@@ -45,7 +45,7 @@
 		<div class="container">
 			<h2>Projects (Tab)</h2>
 			<ul class="tab-links">
-				<li><a class="tablink" onClick="openPage('all', this, '#3ad3d5')" href="#all" id="All">All</a></li>
+				<li><a class="tablink" onClick="openPage('all', this, '#3ad3d5')" href="#all" id="active">All</a></li>
 				<li><a class="tablink" onClick="openPage('Design', this, '#3ad3d5')" href="#Design">Design</a></li>
 				<li><a class="tablink" onClick="openPage('Wordpress', this, '#3ad3d5')" href="#Wordpress">Wordpress</a></li>
 				<li><a class="tablink" onClick="openPage('Laravel', this, '#3ad3d5')" href="#Laravel">Laravel</a></li>
@@ -258,8 +258,8 @@
 		  document.getElementById(pageName).style.display = "block";
 		  elmnt.style.backgroundColor = color;
 		}
-		
 		function init(){
+			document.getElementById('active').style.cssText = "background: #3ad3d5";
 			document.getElementById('all').style.display = "block";
 			var tabs = document.getElementsByClassName('tabcontents');
 			for(i=0; i<tabs.length; i++){
@@ -267,7 +267,6 @@
 			}
 		}
 		init();
-		// Get the element with id="defaultOpen" and click on it
 	</script>
 </body>
 </html>
